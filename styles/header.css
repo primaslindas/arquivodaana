@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .container {
@@ -21,4 +22,24 @@
 
 .container_imagem {
     padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.container_botao:checked ~ .lista-menu {
+    display: block;
+}
+
+.lista-menu_titulo {
+    color: var(--laranja);
+}
+
+.lista-menu_item {
+    padding: 1lem;
+    background-color: var(--branco);
 }
