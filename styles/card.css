@@ -1,0 +1,8 @@
+.card_botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes {
+    display: flex;
+}
