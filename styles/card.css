@@ -6,3 +6,15 @@
 .botoes {
     display: flex;
 }
+
+.botoes_item {
+    margin: 0 0.5em;
+}
+
+.botoes_ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+}
