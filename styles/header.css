@@ -31,6 +31,14 @@
     width: 60vw;
 }
 
+.lista-menu_link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
 .container_botao:checked ~ .lista-menu {
     display: block;
 }
